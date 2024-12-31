@@ -8,24 +8,23 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 16
 
-      - name: Install MARP
+      - name: Install dependencies
         run: npm install -g @marp-team/marp-cli
 
-      - name: Generate HTML Presentation
-        run: marp mi_presentacion.md --html --output docs/index.html
+      - name: Build Presentation
+        run: marp --html --theme-set theme.css mi_presentacion.md
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs
+          publish_dir: ./docs
