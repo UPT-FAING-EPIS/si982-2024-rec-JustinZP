@@ -2,48 +2,57 @@
 marp: true
 theme: default
 paginate: true
-title: Hoja de Vida
+backgroundColor: #f4f4f4
+color: #333
+header: "Justin Zinedine Zevallos Purca"
+footer: "Hoja de Vida - 2024"
 ---
 
-# Hoja de Vida
+# **Justin Zinedine Zevallos Purca**
 
-## Justin Zinedine Zevallos Purca
-
-### Estudiante de Ingeniería de Sistemas
-Estudiante universitario de décimo ciclo con habilidades en desarrollo de software, administración de bases de datos, y análisis de sistemas. Apasionado por la tecnología, la innovación y la resolución de problemas complejos.
+### Estudiante de Ingeniería de Sistemas  
+Décimo ciclo | Universidad Privada de Tacna  
 
 ---
 
-## Experiencia
+## **Perfil Profesional**
+- Estudiante universitario con interés en el desarrollo de software y la innovación tecnológica.  
+- Motivado por aprender nuevas herramientas y contribuir a proyectos que solucionen problemas reales.  
+- Enfocado en el trabajo en equipo, la mejora continua y la resolución de desafíos técnicos.
 
-### Proyectos Académicos
-- **Desarrollo de una API de Lugares**  
-  Implementación de una API RESTful para la gestión de lugares turísticos con FastAPI y CouchDB, orientada a facilitar la integración con sistemas de terceros.
+---
 
-- **Sistema de Gestión de Proyectos**  
-  Diseño de una plataforma para la gestión de proyectos académicos, incluyendo módulos de asignación de tareas, reportes y seguimiento en tiempo real.
+## **Educación**
 
-
-
-## Educación
-
-### Universidad Privada de Tacna
+### **Universidad Privada de Tacna**  
 - **Carrera:** Ingeniería de Sistemas  
-- **Ciclo Actual:** Décimo ciclo  
-- **Cursos destacados:**
-  - Arquitectura de Software
-  - Inteligencia Artificial
-  - Sistemas Distribuidos
+- **Ciclo Actual:** Décimo  
+- **Cursos destacados:**  
+  - Programación Avanzada  
+  - Desarrollo de Sistemas Web  
+  - Gestión de Bases de Datos  
 
 ---
 
-## Habilidades Técnicas
-- **Programación:** Python, Java, Php  
-- **Bases de Datos:** MySQL  
-- **Idiomas:** Español (nativo), Inglés (intermedio)
+## **Habilidades Técnicas**
+- **Programación:** Python, Java, PHP  
+- **Bases de Datos:** MySQL, PostgreSQL  
+- **Herramientas:** Git, Visual Studio Code  
+- **Idiomas:** Español (nativo), Inglés (intermedio)  
 
 ---
 
-## Contacto
+## **Proyectos Académicos**
+### **Gestor de Tareas Universitarias**
+- Implementación de un sistema para organizar tareas y horarios académicos.
+- Tecnologías: Python, Flask.
+
+### **Catálogo de Lugares Turísticos**
+- Desarrollo de una base de datos de lugares turísticos y su integración con una API.
+- Tecnologías: FastAPI, SQLite.
+
+---
+
+## **Contacto**
 - **Correo:** justin.zinedine@correo.com  
 - **LinkedIn:** [linkedin.com/in/justinzevallos](#)
